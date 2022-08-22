@@ -1,15 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { Product } from './components/Product'
+import {products} from './data/products'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div style={{textAlign: 'center', marginTop: '30px'}}>
-      <h1 className="text-3xl font-bold py-4">
-        {count}
-      </h1>
-      <button className={'py-2 px-4 border'} onClick={() => {setCount(count + 1)}}>Click ++</button>
-      <button className={'py-2 px-4 border'} onClick={() => {setCount(count - 1)}}>Click --</button>
+    <div className='container mx-auto max-w-2xl pt-5'>
+      <Product product={products[0]} />
+      <Product product={products[1]} />
     </div>
   )
 }
