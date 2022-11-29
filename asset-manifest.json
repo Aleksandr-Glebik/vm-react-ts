@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vm-react-ts/static/css/main.db207653.css",
+    "main.js": "/vm-react-ts/static/js/main.ebb2b466.js",
+    "index.html": "/vm-react-ts/index.html",
+    "main.db207653.css.map": "/vm-react-ts/static/css/main.db207653.css.map",
+    "main.ebb2b466.js.map": "/vm-react-ts/static/js/main.ebb2b466.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db207653.css",
+    "static/js/main.ebb2b466.js"
+  ]
+}
